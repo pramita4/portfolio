@@ -1,0 +1,239 @@
+@charset "utf-8";
+body{
+    background-color:whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+
+}
+section{
+    width: 100%;
+    height: 95vh;
+    background-image:url(../images/bg.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0,0,0,2);
+    padding:0px 5%;
+
+}
+nav ul{
+    display:flex;
+}
+nav ul li a{
+    margin:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: 15px;
+    font-weight: 700;
+}
+.logo{
+    font-family: cursive;
+    colour:rgb(15, 11, 63);
+    font-size: 20px;
+}
+.abc{
+    color:rgb(3, 3, 95);
+    font-weight: bold;
+}
+h1{
+    top: 40%;
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #230f5a;
+    font-size: 35px;
+
+}
+h3{
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #301010;
+    font-size: 40px;
+}
+h2{
+   font-family: cursive;
+   font-weight: bold;
+   letter-spacing: 1px;
+   color: #640c27;
+   font-size: 30px;
+}
+.text-container{
+    line-height: 0px;
+    margin:45px 100px 25px 57px;
+    left: 13%;
+    top: 50%;
+    transform: translate(16%);
+}
+.button{
+     border:1px solid #9c9595;
+    color:#373636;
+    margin-left: 350px;
+    margin-top: 50px;
+    width: 115px;
+    height: 45px;
+    font-family: monospace;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+button:active{
+    transform: scale(1.1);
+}
+.images{
+    display: flex;
+    position: absolute;
+    height: 540px;
+    bottom: 0px;
+    transform: translateX(-10%);
+}
+.about-container{
+    width: 80%;
+    height:330px;
+    background-color: rgb(22, 20, 20);
+    color: blanchedalmond;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,2);
+    display:flex;
+    margin:-7% auto 20px auto;
+    position: relative;
+    text-align:center;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.
+}
+.about-text{
+    width: 1000px;
+    background-color: rgb(22, 20, 20);
+    color: blanchedalmond;
+
+}
+.about-text button{
+    width: 120px;
+    height:40px;
+    color: white;
+    background-color:#262525;
+    border-radius:2px solid black;
+    ;
+}
+.skills{
+    height: 600px;
+    background-color: blanchedalmond;
+    padding: 10% 0% 0px 7%;
+    
+}
+.skills-text{
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 60px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.three{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding-bottom: -20px;
+    margin-left: 55px;
+}
+.box-1, .box-2{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 10px rgba(0,0,0,3);
+
+}
+.box-container{
+    display: flex;
+    justify-content: space-around
+}
+.box-1{
+    background-image: url("../images/frontend.png");
+
+}
+
+.hire{
+    align-items: center;
+    justify-content: center;
+    margin: 209px 20px 0px 120px;
+    height: 20px;
+    width: 60px;
+    border-radius: 2px solid black;
+    background-color: rgba(0,0,0,3);
+    color: thistle;
+    
+}
+.box-2{
+    background-image: url("../images/backend.png");
+}
+.contact{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(94, 90, 90);
+    color: honeydew;
+    text-align: center;
+ margin-top: 20px;
+    padding: 20px ;
+}
+.contact-me{
+    padding: 10px 10px 10px 10px ;
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+footer{
+    height: 300px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+.social-icons{
+    display: flex;
+}
+.copyright{
+    color: #333232;
+    font-size: 19px;
+    position: absolute;
+    left: 45%;
+    bottom:10px;
+    font-family: cursive;
+
+}
+.fab, .far{
+    margin-top: 8px;
+    font-size: 25px;
+}
